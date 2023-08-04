@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    padding: 40px 35px 10px 35px;
+}
+.flex{
+    display: flex;
+}
+
+.mobile{
+    display: none;
+}
+.head{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 170px;
+    justify-content: space-between;
+}
+.logo>img{
+    height: 50px;
+    padding-top: 7px;
+}
+.logo>h1{
+    align-items: center;
+}
+.head_mid{
+    width: 500px;
+    justify-content: space-between;
+}
+.head_mid>a{
+    color: #00000089;
+}
+.head_mid>a:hover{
+    color: #ee3e09;
+    font-weight: bold;
+}
+.signup{
+    height: 50px;
+    width: 150px;
+    border: 1px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+.signup>a{
+    color: #000;
+    font-weight: bold;
+}
+
+
+.main{
+    padding-top: 40px;
+}
+.main_left{
+    width: 60%;
+}
+.main_left>h1{
+    font-size: 70px;
+    margin: 30px 0px;
+    font-weight: bold;
+}
+.main_left>p{
+    padding-left: 15px;
+    margin-bottom: 20px;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: #00000082;
+    border-left: 1px solid #000000b8;
+}
+.main_right{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 10px;
+}
+.img_one{
+    height: 400px;
+    position: absolute;
+    top: 24px;
+    z-index: 1;
+}
+.img_two{
+    height: 390px;
+    width: 300px;
+    border-radius: 97px;
+    position: absolute;
+    top: 30px;
+    right: 29%;
+    z-index: 2;
+}
+.img_three{
+    height: 390px;
+    position: absolute;
+    top: 7px;
+    z-index: 3;
+}
+.img_greenarrow{
+    position: absolute;
+    top: 430px;
+}
+.img_orangearrow{
+    position: absolute;
+    right: 550px;
+}
+.img_circle{
+    position: absolute;
+    top: 350px;
+    right: 50px;
+}
+.start{
+    height: 50px;
+    width: 150px;
+    background-color: #ee3e09;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+.start>a{
+    color: #ffffff;
+}
+.learn{
+    height: 50px;
+    width: 150px;
+    border: 1px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+.learn>a{
+    color: #000;
+}
+.img_blackarrow{
+    position: relative;
+    left: 100px;
+}
+
+
+
+footer{
+    height: auto;
+    padding-top: 20px;
+    margin-top: 77px;
+    background-color: #0d0636;
+    justify-content: space-around;
+}
+.footer_first_text{
+    width: 250px;
+}
+.vector{
+    width: 190px;
+}
+.footertext{
+    color: #ffffff;
+}
+.footer_first_text>h1{
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+.para{
+    line-height: 25px;
+}
+.vector_div{
+    height: 40px;
+    width: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vector_three{
+    background-color: #37ef53;
+}
+.vector_two{
+    background-color: #c81111;
+}
+.vector_one{
+    background-color: #0e2fea;
+}
+.vector>h1{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.vector>p{
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 576px) {
+.mobile{
+    display: block;
+}
+.laptop{
+    display: none;
+}
+
+
+.main{
+    display: block;
+}
+.main_left{
+    width: 100%;
+} 
+.main_left>h1{
+    font-size: 47px;
+}
+.main_left>p{
+    font-size: 18px;
+} 
+.main_right{
+    position: relative;
+}
+.img_orangearrow{
+    right: 450px;
+} 
+.main_login{
+    justify-content: space-between;
+} 
+.main_login>div{
+    width: 250px;
+}
+.img_blackarrow{
+    width: 110px;
+    left: 350px;
+}
+
+footer{
+    margin-top: 0px;
+}
+.footer{
+    display: block;
+}
+.mobile_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_first_text{
+    width: 350px;
+}
+.vector{
+    width: 350px;
+}
+.footer_first_text>h1{
+    font-size: 32px;
+    text-align: center;
+}
+.para{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.vector_div{
+    position: relative;
+    left: 45%;
+}
+.vector>h1{
+    font-size: 27px;
+    text-align: center;
+}
+.vector>p{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+}
